@@ -15,8 +15,8 @@
     <PackageOutputPath>..\..\.nupkg</PackageOutputPath>
     <PackageReadmeFile>docs\Scarecrow.WebApi.md</PackageReadmeFile>
     <PackageTags>Scarecrow;Core;WebAPI;API;.NET;dotnet</PackageTags>
-    <PackageProjectUrl>https://github.com/muhirwanto-dev/templator</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/muhirwanto-dev/templator</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/muhirwanto-dev/scarecrow</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/muhirwanto-dev/scarecrow</RepositoryUrl>
 
     <!-- Keep package type as 'Template' to show the package as a template package on nuget.org and make your template available in dotnet new search.-->
     <PackageType>Template</PackageType>

@@ -27,12 +27,12 @@ Install the abstractions package via NuGet:
 **Package Manager Console:**
 
 ```powershell
-Install-Package Scarecrow.WebApi
+Install-Package Scarecrow.WebApi.Templatae
 ```
 
 **.NET CLI**
 ```bash
-dotnet add package Scarecrow.WebApi
+dotnet add package Scarecrow.WebApi.Templatae
 ```
 
 ## Usage
