@@ -1,4 +1,4 @@
-# Scarecrow
+# Scarecrow.WebApi
 
 [![NuGet Version](https://img.shields.io/nuget/v/Scarecrow.WebApi.svg?style=flat-square)](https://www.nuget.org/packages/Scarecrow.WebApi/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Scarecrow.WebApi.svg?style=flat-square)](https://www.nuget.org/packages/Scarecrow.WebApi/)
