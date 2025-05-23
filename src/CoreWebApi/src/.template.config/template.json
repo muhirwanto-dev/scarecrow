@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "muhirwanto.dev",
+  "classifications": [ "Web", "WebAPI", "Web API", "API", "Service", "Clean Architecture", "CQRS" ],
+  "identity": "Templator.CoreWebApi",
+  "name": "Templator - ASP.NET Core Web API Clean Architecture",
+  "shortName": "templator-webapi",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Templator",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "source": "./",
+	  "target": "./",
+      "exclude": [
+        "**/.template.config/**/*",
+        "**/.vs/**/*",
+        "**/.git/**/*",
+        "**/.gitignore",
+        "**/bin/**/*",
+        "**/obj/**/*",
+        "**/*.user",
+        "**/*.suo"
+      ],
+      "rename": {
+        "Templator.sln": "[!full_name].sln"
+      }
+    }
+  ]
+}

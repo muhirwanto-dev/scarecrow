@@ -40,7 +40,7 @@ namespace Templator.Api.Controllers
 
             errors.ForEach(error => modelStateDictionary.AddModelError(error.Code, error.Description));
 
-            return ValidationProblem(modelStateDictionary);
+            return BadRequest(modelStateDictionary);
         }
     }
 }

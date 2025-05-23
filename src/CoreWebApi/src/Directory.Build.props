@@ -1,0 +1,23 @@
+<Project>
+  <PropertyGroup>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>muhirwanto.dev</Authors>
+    <Copyright>Copyright (c) muhirwanto.dev 2024</Copyright>
+    <Description>This .NET Web API template implements Clean Architecture principles. It comes pre-configured with Routing Convention, Logging with Serilog, middleware integration for exception and logging handler, object mapping with Mapperly, and API versioning.</Description>
+    <PackageId>Templator.CoreWebApi</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>assets\img\logo.png</PackageIcon>
+    <PackageOutputPath>..\..\..\.nupkg</PackageOutputPath>
+    <PackageReadmeFile>..\..\..\docs\Templator.CoreWebApi.md</PackageReadmeFile>
+    <PackageTags>Templator;Core;WebAPI;API;.NET;dotnet</PackageTags>
+    <PackageProjectUrl>https://github.com/muhirwanto-dev/templator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/muhirwanto-dev/templator</RepositoryUrl>
+    <Title>Template for .NET Core Web Api with Clean Architecture</Title>
+
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\assets\img\logo.png" Link="logo.png" Pack="true" PackagePath="assets\img" />
+  </ItemGroup>
+</Project>
