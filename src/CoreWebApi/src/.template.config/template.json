@@ -3,7 +3,7 @@
   "author": "muhirwanto.dev",
   "classifications": [ "Web", "WebAPI", "Web API", "API", "Service", "Clean Architecture", "CQRS" ],
   "identity": "Templator.CoreWebApi",
-  "name": "Templator - ASP.NET Core Web API Clean Architecture",
+  "name": "Templator - ASP.NET Core Web API Clean Architecture Template",
   "shortName": "templator-webapi",
   "tags": {
     "language": "C#",
@@ -23,11 +23,9 @@
         "**/bin/**/*",
         "**/obj/**/*",
         "**/*.user",
-        "**/*.suo"
-      ],
-      "rename": {
-        "Templator.sln": "[!full_name].sln"
-      }
+        "**/*.suo",
+        "**/Templator.CoreWebApi.csproj"
+      ]
     }
   ]
 }
