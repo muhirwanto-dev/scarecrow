@@ -1,4 +1,4 @@
-# SingleScope.Maui
+# Templator
 
 [![NuGet Version](https://img.shields.io/nuget/v/Templator.CoreWebApi.svg?style=flat-square)](https://www.nuget.org/packages/Templator.CoreWebApi/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Templator.CoreWebApi.svg?style=flat-square)](https://www.nuget.org/packages/Templator.CoreWebApi/)
@@ -50,6 +50,20 @@ Go to `<root>\src\CoreWebApi\src`.
 ```bash
 dotnet new uninstall ./
 ```
+
+## Library Used In This Template
+This template leverages a set of robust libraries and frameworks to implement Clean Architecture and other best practices.
+
+|Package|Version|License|
+|-------------|-------------|-------------|
+|[SingleScope.Persistence](https://github.com/muhirwanto-dev/singlescope-plugins)|3.2.0|[MIT](https://github.com/muhirwanto-dev/singlescope-plugins?tab=MIT-1-ov-file#readme)|
+|[MediatR](https://github.com/jbogard/MediatR)|12.5.0|[Apache-2.0](https://github.com/jbogard/MediatR?tab=Apache-2.0-1-ov-file#readme)|
+|[ErrorOr](https://github.com/amantinband/error-or)|2.0.1|[MIT](https://github.com/amantinband/error-or?tab=MIT-1-ov-file#readme)|
+|[SmartEnum](https://github.com/ardalis/SmartEnum)|8.2.0|[MIT](https://github.com/ardalis/SmartEnum?tab=MIT-1-ov-file#readme)|
+|[Serilog](https://github.com/serilog/serilog)|4.2.0|[Apache-2.0](https://github.com/serilog/serilog?tab=Apache-2.0-1-ov-file#readme)|
+|[FluentValidation](https://github.com/FluentValidation/FluentValidation)|12.0.0|[Apache-2.0](https://github.com/FluentValidation/FluentValidation?tab=Apache-2.0-1-ov-file#readme)|
+|[Mapperly](https://github.com/riok/mapperly)|4.2.1|[Apache-2.0](https://github.com/riok/mapperly?tab=Apache-2.0-1-ov-file#readme)|
+|[ApiExplorer](https://github.com/dotnet/aspnet-api-versioning)|8.1.0|[MIT](https://github.com/dotnet/aspnet-api-versioning?tab=MIT-1-ov-file#readme)|
 
 ## Contributions
 
