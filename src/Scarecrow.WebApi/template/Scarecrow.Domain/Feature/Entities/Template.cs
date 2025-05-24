@@ -1,4 +1,4 @@
-﻿using Scarecrow.Domain.Common;
+﻿using Scarecrow.Domain.Common.Entities;
 
 namespace Scarecrow.Domain.Feature.Entities
 {

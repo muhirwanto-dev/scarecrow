@@ -1,4 +1,4 @@
-﻿namespace Scarecrow.Domain.Common
+﻿namespace Scarecrow.Domain.Common.Entities
 {
     public abstract class AuditableEntity : NoKeyEntity
     {
