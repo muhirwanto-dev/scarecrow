@@ -1,7 +1,7 @@
 # Scarecrow
 
-[![NuGet Version](https://img.shields.io/nuget/v/Scarecrow.WebApi.svg?style=flat-square)](https://www.nuget.org/packages/Scarecrow.WebApi/)
-[![NuGet Downloads](https://img.shields.io/nuget/dt/Scarecrow.WebApi.svg?style=flat-square)](https://www.nuget.org/packages/Scarecrow.WebApi/)
+[![NuGet Version](https://img.shields.io/nuget/v/Scarecrow.WebApi.Template.svg?style=flat-square)](https://www.nuget.org/packages/Scarecrow.WebApi.Template/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Scarecrow.WebApi.Template.svg?style=flat-square)](https://www.nuget.org/packages/Scarecrow.WebApi.Template/)
 [![License](https://img.shields.io/github/license/muhirwanto-dev/scarecrow?style=flat-square)](LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/muhirwanto-dev/scarecrow?style=flat-square)](https://github.com/muhirwanto-dev/scarecrow/issues)
 [![GitHub Stars](https://img.shields.io/github/stars/muhirwanto-dev/scarecrow?style=flat-square)](https://github.com/muhirwanto-dev/scarecrow/stargazers)
@@ -22,33 +22,17 @@ This .NET Web API template implements Clean Architecture principles (inspired by
 
 ## Installation
 
-Install the abstractions package via NuGet:
+Install the template from Package Manager console:
 
 **Package Manager Console:**
 
 ```powershell
-Install-Package Scarecrow.WebApi.Templatae
+dotnet new install Scarecrow.WebApi.Template
 ```
 
 **.NET CLI**
 ```bash
-dotnet add package Scarecrow.WebApi.Templatae
-```
-
-## Usage
-
-**Install Template**
-
-Go to `<root>\src\CoreWebApi\src`.
-```bash
-dotnet new install ./
-```
-
-**Uninstall Template**
-
-Go to `<root>\src\CoreWebApi\src`.
-```bash
-dotnet new uninstall ./
+dotnet new install Scarecrow.WebApi.Template
 ```
 
 ## Library Used In This Template
@@ -87,4 +71,4 @@ Distributed under the [MIT License](https://github.com/muhirwanto-dev/scarecrow/
 
 [@muhirwanto-dev](https://github.com/muhirwanto-dev)
 
-Project link: [https://github.com/muhirwanto-dev/scarecrow/tree/main/src/CoreWebApi](https://github.com/muhirwanto-dev/scarecrow/tree/main/src/CoreWebApi)
+Project link: [https://github.com/muhirwanto-dev/scarecrow/tree/main/src/Scarecrow.WebApi](https://github.com/muhirwanto-dev/scarecrow/tree/main/src/Scarecrow.WebApi)
