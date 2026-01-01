@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- ========================= -->
+  <!-- Template-specific config -->
+  <!-- ========================= -->
+  <PropertyGroup>
+    <PackageId>Scarecrow.Clean</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+
+    <Title>Scarecrow Clean Architecture Template</Title>
+    <Description>
+Scarecrow.Clean is a Clean Architecture project template for .NET 9 and .NET 10,
+providing Domain, Application, and Infrastructure layers.
+    </Description>
+
+    <PackageTags>dotnet;template;clean-architecture;ddd;scarecrow</PackageTags>
+
+    <!-- Required for dotnet new -->
+    <PackageType>Template</PackageType>
+
+    <!-- Only needed for packing the template itself -->
+    <TargetFramework>net9.0</TargetFramework>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <LocalizeTemplates>false</LocalizeTemplates>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TemplateEngine.Tasks"
+                      Version="*"
+                      PrivateAssets="all"
+                      IsImplicitlyDefined="true" />
+  </ItemGroup>
+
+  <!-- ================= -->
+  <!-- Template content  -->
+  <!-- ================= -->
+  <ItemGroup>
+    <!-- All files under content/ become the template -->
+    <Content Include="content/**"
+             Exclude="content/**/bin/**;content/**/obj/**" />
+
+    <!-- Ensure no compilation happens -->
+    <Compile Remove="**/*" />
+  </ItemGroup>
+
+  <!-- ================= -->
+  <!-- README (NuGet UI) -->
+  <!-- ================= -->
+  <ItemGroup>
+    <!-- README path is resolved via Directory.Build.props -->
+    <None Include="README.md"
+          Pack="true"
+          PackagePath="" />
+  </ItemGroup>
+
+</Project>

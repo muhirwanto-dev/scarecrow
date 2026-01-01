@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "muhirwanto.dev",
+  "identity": "Scarecrow.Clean",
+  "name": "Scarecrow Clean Architecture",
+  "shortName": "scarecrow-clean",
+  "sourceName": "Scarecrow",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "source": "./",
+	  "target": "./",
+      "exclude": [
+        "**/.template.config/**/*",
+        "**/.vs/**/*",
+        "**/.git/**/*",
+        "**/.gitignore",
+        "**/bin/**/*",
+        "**/obj/**/*",
+        "**/*.user",
+        "**/*.suo"
+      ]
+    }
+  ],
+  "symbols": {
+    "framework": {
+      "type": "parameter",
+      "datatype": "choice",
+      "choices": [
+        { "choice": "net9.0" },
+        { "choice": "net10.0" }
+      ],
+      "defaultValue": "net9.0"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Scarecrow.Application/Scarecrow.Application.csproj" Id="6af75422-a649-4073-a451-16a4b4bf1c98" />
+  <Project Path="Scarecrow.Domain/Scarecrow.Domain.csproj" />
+  <Project Path="Scarecrow.Infrastructure/Scarecrow.Infrastructure.csproj" Id="7f8418d7-d89b-457a-8a1d-0f69c6844d10" />
+</Solution>
