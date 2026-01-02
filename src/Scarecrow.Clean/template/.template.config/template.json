@@ -7,8 +7,11 @@
   "sourceName": "Scarecrow",
   "tags": {
     "language": "C#",
-    "type": "project"
-  }
+    "type": "project",
+    "architecture": "Clean Architecture",
+    "style": "DDD",
+    "framework": ".NET"
+  },
   "preferNameDirectory": true,
   "sources": [
     {
