@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- ========================= -->
+  <!-- Template-specific config -->
+  <!-- ========================= -->
+  <PropertyGroup>
+    <PackageId>Scarecrow.Api</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+
+    <Title>Scarecrow Web API Template</Title>
+    <Description>
+Scarecrow.Api is a Web API project template for .NET 9 and .NET 10,
+providing configuration for Routing Convention, Exception Middleware, and Http Request Middleware.
+    </Description>
+
+    <PackageTags>dotnet;template;webapi;api;scarecrow</PackageTags>
+
+    <!-- Required for dotnet new -->
+    <PackageType>Template</PackageType>
+
+    <!-- Only needed for packing the template itself -->
+    <TargetFramework>net9.0</TargetFramework>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <LocalizeTemplates>false</LocalizeTemplates>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TemplateEngine.Tasks"
+                      Version="*"
+                      PrivateAssets="all"
+                      IsImplicitlyDefined="true" />
+  </ItemGroup>
+
+  <!-- ================= -->
+  <!-- Template content  -->
+  <!-- ================= -->
+  <ItemGroup>
+    <!-- All files under content/ become the template -->
+    <Content Include="template/**"
+             Exclude="template/**/bin/**;template/**/obj/**" />
+
+    <!-- Ensure no compilation happens -->
+    <Compile Remove="**/*" />
+  </ItemGroup>
+
+</Project>
