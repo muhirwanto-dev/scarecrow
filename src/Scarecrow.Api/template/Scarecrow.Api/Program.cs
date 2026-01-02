@@ -1,6 +1,4 @@
-#if !NET10_0_OR_GREATER
 using Asp.Versioning.ApiExplorer;
-#endif
 using Scarecrow.Api;
 using Scarecrow.Api.Middlewares;
 using Scarecrow.Application;
@@ -22,9 +20,7 @@ app.Services.UseSingleScopePersistence();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-#if NET10_0_OR_GREATER
     app.MapOpenApi();
-#else
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
@@ -35,7 +31,6 @@ if (app.Environment.IsDevelopment())
             options.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json", description.GroupName.ToLowerInvariant());
         }
     });
-#endif
 }
 
 app.UseHttpsRedirection();

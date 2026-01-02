@@ -1,5 +1,4 @@
-﻿#if !NET10_0_OR_GREATER
-using Asp.Versioning.ApiExplorer;
+﻿using Asp.Versioning.ApiExplorer;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
@@ -23,4 +22,3 @@ namespace Scarecrow.Api.ApiDocs
         }
     }
 }
-#endif

@@ -1,10 +1,7 @@
 ﻿using System.Text.Json.Serialization;
+using Scarecrow.Api.ApiDocs;
 using Scarecrow.Api.Configurations;
 using Scarecrow.Api.Routing;
-
-#if !NET10_0_OR_GREATER
-using Scarecrow.Api.ApiDocs;
-#endif
 
 namespace Scarecrow.Api
 {
@@ -15,18 +12,14 @@ namespace Scarecrow.Api
             services.Configure<AppSettings>(configuration.Bind);
 
             services.AddEndpoints();
-#if NET10_0_OR_GREATER
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             services.AddOpenApi();
-#else
             services.AddSwagger();
-#endif
             services.AddProblemDetails();
 
             return services;
         }
 
-#if !NET10_0_OR_GREATER
         private static IServiceCollection AddSwagger(this IServiceCollection services)
         {
             services.ConfigureOptions<SwaggerConfiguration>();
@@ -38,7 +31,6 @@ namespace Scarecrow.Api
 
             return services;
         }
-#endif
 
         private static IServiceCollection AddEndpoints(this IServiceCollection services)
         {

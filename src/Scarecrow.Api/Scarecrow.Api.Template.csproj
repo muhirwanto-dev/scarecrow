@@ -5,11 +5,11 @@
   <!-- ========================= -->
   <PropertyGroup>
     <PackageId>Scarecrow.Api</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
 
     <Title>Scarecrow Web API Template</Title>
     <Description>
-Scarecrow.Api is a Web API project template for .NET 9 and .NET 10, providing configuration for Routing Convention, Api Versioning, Exception Middleware, and Http Request Middleware.
+Scarecrow.Api is a Web API project template for .NET 10, providing configuration for Routing Convention, Api Versioning, Exception Middleware, and Http Request Middleware.
     </Description>
 
     <PackageTags>dotnet;template;webapi;api;scarecrow</PackageTags>
@@ -18,11 +18,11 @@ Scarecrow.Api is a Web API project template for .NET 9 and .NET 10, providing co
     <PackageType>Template</PackageType>
 
     <!-- Only needed for packing the template itself -->
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
 
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
-    <ContentTargetFolders>content</ContentTargetFolders>
+    <ContentTargetFolders>template</ContentTargetFolders>
 
     <NoDefaultExcludes>true</NoDefaultExcludes>
     <LocalizeTemplates>false</LocalizeTemplates>
