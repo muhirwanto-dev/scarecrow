@@ -1,5 +1,7 @@
-# Scarecrow
+# Scarecrow.Api
 
+[![NuGet Version](https://img.shields.io/nuget/v/Scarecrow.Api.Template.svg?style=flat-square)](https://www.nuget.org/packages/Scarecrow.Api.Template/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Scarecrow.Api.Template.svg?style=flat-square)](https://www.nuget.org/packages/Scarecrow.Api.Template/)
 [![License](https://img.shields.io/github/license/muhirwanto-dev/scarecrow?style=flat-square)](LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/muhirwanto-dev/scarecrow?style=flat-square)](https://github.com/muhirwanto-dev/scarecrow/issues)
 [![GitHub Stars](https://img.shields.io/github/stars/muhirwanto-dev/scarecrow?style=flat-square)](https://github.com/muhirwanto-dev/scarecrow/stargazers)
@@ -8,35 +10,45 @@
 
 ## Overview
 
-Scarecrow is a collection of **opinionated .NET project templates** designed to help you bootstrap modern applications using **Clean Architecture, DDD, and best practices**.
+A **Web API template** built on top of **Scarecrow.Clean**. This template focuses on **delivery concerns** while keeping business logic isolated. It comes pre-configured with `Routing Convention`, `Logging` with `Serilog`, middleware integration for exception & logging handler, object mapping with `Mapperly`, and API versioning.
 
-## Available Templates
+## Built On
 
-### 🧱 Scarecrow.Clean
-A Clean Architecture **foundation template** containing:
-- Domain
-- Application
-- Infrastructure
-
-👉 Best for libraries, background services, and core business logic.
-
-### 🌐 Scarecrow.Api
-A Web API template built **on top of Scarecrow.Clean**, providing:
-- ASP.NET Core API
-- Routing conventions
-- Logging & middleware
-- API versioning
-
-👉 Best for HTTP-based applications.
+- Scarecrow.Clean architecture
+- ASP.NET Core (.NET 9 & 10)
 
 ---
 
+## Features
+
+- Kebab-case routing convention
+- Serilog logging
+- Exception & request logging middleware
+- API versioning
+- FluentValidation
+- Mapperly
+- OpenAPI / Swagger ready
+
 ## Installation
 
-```bash
-dotnet new install Scarecrow.Clean
+Install the template from Package Manager console:
+
+**Package Manager Console:**
+
+```powershell
 dotnet new install Scarecrow.Api
 ```
+
+**.NET CLI**
+```bash
+dotnet new install Scarecrow.Api
+```
+
+## When to Use This Template
+
+- ✔ REST APIs
+- ✔ Public or internal services
+- ✔ HTTP-based integrations
 
 ## Contributions
 
@@ -60,4 +72,4 @@ Distributed under the [MIT License](https://github.com/muhirwanto-dev/scarecrow/
 
 [@muhirwanto-dev](https://github.com/muhirwanto-dev)
 
-Project link: [https://github.com/muhirwanto-dev/scarecrow/tree/main](https://github.com/muhirwanto-dev/scarecrow/tree/main)
+Project link: [https://github.com/muhirwanto-dev/scarecrow/tree/main/src/Scarecrow.Api](https://github.com/muhirwanto-dev/scarecrow/tree/main/src/Scarecrow.Api)

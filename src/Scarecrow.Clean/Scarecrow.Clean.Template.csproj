@@ -41,21 +41,11 @@ providing Domain, Application, and Infrastructure layers.
   <!-- ================= -->
   <ItemGroup>
     <!-- All files under content/ become the template -->
-    <Content Include="content/**"
-             Exclude="content/**/bin/**;content/**/obj/**" />
+    <Content Include="template/**"
+             Exclude="template/**/bin/**;template/**/obj/**" />
 
     <!-- Ensure no compilation happens -->
     <Compile Remove="**/*" />
   </ItemGroup>
-
-  <!-- ================= -->
-  <!-- README (NuGet UI) -->
-  <!-- ================= -->
-  <ItemGroup>
-    <!-- README path is resolved via Directory.Build.props -->
-    <None Include="README.md"
-          Pack="true"
-          PackagePath="" />
-  </ItemGroup>
-
+  
 </Project>
