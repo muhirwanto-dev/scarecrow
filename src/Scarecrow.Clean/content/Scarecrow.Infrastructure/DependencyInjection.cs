@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Scarecrow.Application.Persistence.Repositories;
 using Scarecrow.Domain.Catalogs.Entities;
+using Scarecrow.Infrastructure.Mailing;
 using Scarecrow.Infrastructure.Persistence.Contexts;
 using Scarecrow.Infrastructure.Persistence.Repositories;
 using Serilog;
@@ -17,7 +18,8 @@ namespace Scarecrow.Infrastructure
         {
             return services
                 .AddLogging(configuration)
-                .AddPersistence(configuration);
+                .AddPersistence(configuration)
+                .AddMailing(configuration);
         }
 
         private static IServiceCollection AddPersistence(this IServiceCollection services, IConfiguration configuration)
@@ -36,6 +38,13 @@ namespace Scarecrow.Infrastructure
             services.AddLogging(builder => builder.AddSerilog(new LoggerConfiguration()
                 .ReadFrom.Configuration(configuration)
                 .CreateLogger()));
+
+            return services;
+        }
+
+        private static IServiceCollection AddMailing(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.Configure<EmailConfiguration>(configuration.GetSection(EmailConfiguration.Section));
 
             return services;
         }
