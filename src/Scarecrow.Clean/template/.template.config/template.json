@@ -3,7 +3,7 @@
   "author": "muhirwanto.dev",
   "identity": "Scarecrow.Clean",
   "name": "Scarecrow Clean Architecture",
-  "description": "A Clean Architecture project template with Domain, Application, and Infrastructure layers for .NET 9 and .NET 10.",
+  "description": "Clean Architecture project template for .NET 9 and .NET 10, providing Domain, Application, and Infrastructure layers.",
   "shortName": "scarecrow-clean",
   "sourceName": "Scarecrow",
   "tags": {

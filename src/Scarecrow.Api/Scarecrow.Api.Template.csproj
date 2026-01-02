@@ -9,8 +9,7 @@
 
     <Title>Scarecrow Web API Template</Title>
     <Description>
-Scarecrow.Api is a Web API project template for .NET 9 and .NET 10,
-providing configuration for Routing Convention, Exception Middleware, and Http Request Middleware.
+Scarecrow.Api is a Web API project template for .NET 9 and .NET 10, providing configuration for Routing Convention, Api Versioning, Exception Middleware, and Http Request Middleware.
     </Description>
 
     <PackageTags>dotnet;template;webapi;api;scarecrow</PackageTags>

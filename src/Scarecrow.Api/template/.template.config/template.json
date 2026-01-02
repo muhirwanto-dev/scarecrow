@@ -3,7 +3,7 @@
   "author": "muhirwanto.dev",
   "identity": "Scarecrow.Api",
   "name": "Scarecrow: .NET Web Api",
-  "description": "It comes pre-configured with Routing Convention, Logging, middleware integration for exception & logging handler, and API versioning",
+  "description": ".NET Web API project template for .NET 9 and .NET 10, providing configuration for Routing Convention, Api Versioning, Exception Middleware, and Http Request Middleware.",
   "shortName": "scarecrow-api",
   "sourceName": "Scarecrow",
   "tags": {

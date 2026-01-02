@@ -9,7 +9,7 @@ namespace Scarecrow.Application.Catalogs.Queries.SearchProducts
     public class SearchProductsQueryHandler(
         IProductRepository _repository)
     {
-        protected Task<List<Product>> HandleAsync(SearchProductsQuery message, CancellationToken cancellation = default)
+        public Task<List<Product>> HandleAsync(SearchProductsQuery message, CancellationToken cancellation = default)
         {
             return _repository.SearchAsync(message.Query, cancellation);
         }
