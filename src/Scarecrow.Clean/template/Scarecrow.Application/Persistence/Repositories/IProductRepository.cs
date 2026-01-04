@@ -1,5 +1,5 @@
 ﻿using Scarecrow.Domain.Catalogs.Entities;
-using SingleScope.Persistence.Repository;
+using SingleScope.Persistence.Abstraction;
 
 namespace Scarecrow.Application.Persistence.Repositories
 {

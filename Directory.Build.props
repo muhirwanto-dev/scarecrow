@@ -9,10 +9,10 @@
     <PackageProjectUrl>https://github.com/muhirwanto-dev/scarecrow</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
-    <PackageIcon>assets/img/logo.png</PackageIcon>
+    <PackageIcon>assets\img\logo.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
 
-    <PackageOutputPath>.nupkg</PackageOutputPath>
+    <PackageOutputPath>..\..\.nupkg</PackageOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,6 +22,7 @@
           PackagePath="" />
 
     <None Include="..\..\assets\img\logo.png"
+		  Link="logo.png"
           Pack="true"
           PackagePath="assets/img" />
   </ItemGroup>

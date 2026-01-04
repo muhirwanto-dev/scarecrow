@@ -2,7 +2,7 @@
 using Scarecrow.Application.Persistence.Repositories;
 using Scarecrow.Domain.Catalogs.Entities;
 using Scarecrow.Infrastructure.Persistence.Contexts;
-using SingleScope.Persistence.EFCore.Repository;
+using SingleScope.Persistence.EFCore.Repositories;
 
 namespace Scarecrow.Infrastructure.Persistence.Repositories
 {

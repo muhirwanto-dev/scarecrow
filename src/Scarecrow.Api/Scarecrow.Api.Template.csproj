@@ -6,16 +6,14 @@
   <PropertyGroup>
     <PackageId>Scarecrow.Api</PackageId>
     <PackageVersion>1.1.0</PackageVersion>
+    <PackageTags>dotnet;template;webapi;api;scarecrow</PackageTags>
+    <PackageType>Template</PackageType>
 
     <Title>Scarecrow Web API Template</Title>
     <Description>
 Scarecrow.Api is a Web API project template for .NET 10, providing configuration for Routing Convention, Api Versioning, Exception Middleware, and Http Request Middleware.
     </Description>
-
-    <PackageTags>dotnet;template;webapi;api;scarecrow</PackageTags>
-
-    <!-- Required for dotnet new -->
-    <PackageType>Template</PackageType>
+    <PackageReadmeFile>docs\Scarecrow.Api.md</PackageReadmeFile>
 
     <!-- Only needed for packing the template itself -->
     <TargetFramework>net10.0</TargetFramework>
@@ -33,6 +31,10 @@ Scarecrow.Api is a Web API project template for .NET 10, providing configuration
                       Version="*"
                       PrivateAssets="all"
                       IsImplicitlyDefined="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\docs\Scarecrow.Api.md" Pack="true" PackagePath="docs" />
   </ItemGroup>
 
   <!-- ================= -->
