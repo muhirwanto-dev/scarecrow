@@ -1,7 +1,7 @@
 # Scarecrow.Api
 
-[![NuGet Version](https://img.shields.io/nuget/v/Scarecrow.Api.Template.svg?style=flat-square)](https://www.nuget.org/packages/Scarecrow.Api.Template/)
-[![NuGet Downloads](https://img.shields.io/nuget/dt/Scarecrow.Api.Template.svg?style=flat-square)](https://www.nuget.org/packages/Scarecrow.Api.Template/)
+[![NuGet Version](https://img.shields.io/nuget/v/Scarecrow.Api.svg?style=flat-square)](https://www.nuget.org/packages/Scarecrow.Api/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Scarecrow.Api.svg?style=flat-square)](https://www.nuget.org/packages/Scarecrow.Api/)
 [![License](https://img.shields.io/github/license/muhirwanto-dev/scarecrow?style=flat-square)](LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/muhirwanto-dev/scarecrow?style=flat-square)](https://github.com/muhirwanto-dev/scarecrow/issues)
 [![GitHub Stars](https://img.shields.io/github/stars/muhirwanto-dev/scarecrow?style=flat-square)](https://github.com/muhirwanto-dev/scarecrow/stargazers)
