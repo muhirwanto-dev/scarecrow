@@ -3,7 +3,6 @@ using Scarecrow.Api;
 using Scarecrow.Api.Middlewares;
 using Scarecrow.Application;
 using Scarecrow.Infrastructure;
-using SingleScope.Persistence.EFCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,8 +13,6 @@ builder.Services
     .AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
-
-app.Services.UseSingleScopePersistence();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
