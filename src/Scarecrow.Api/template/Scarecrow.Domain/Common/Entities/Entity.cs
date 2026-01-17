@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Scarecrow.Domain.Common.Messaging;
 using SingleScope.Persistence.Abstraction;
 
 namespace Scarecrow.Domain.Common.Entities

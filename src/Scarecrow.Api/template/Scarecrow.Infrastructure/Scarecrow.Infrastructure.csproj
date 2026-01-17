@@ -4,21 +4,21 @@
     <TargetFrameworks>net9.0;net10.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <FileVersion>1.0.0.0104</FileVersion>
-    <AssemblyVersion>1.0.0.0104</AssemblyVersion>
+    <FileVersion>1.0.0.0117</FileVersion>
+    <AssemblyVersion>1.0.0.0117</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Serilog.Extensions.Logging" Version="10.0.0" />
-    <PackageReference Include="Serilog.Settings.Configuration" Version="10.0.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
-    <PackageReference Include="SingleScope.Persistence.EFCore" Version="4.0.2" />
+    <PackageReference Include="SingleScope.Persistence.EFCore" Version="4.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.*" Condition="'$(TargetFramework)' == 'net9.0'" />
-
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.*" Condition="'$(TargetFramework)' == 'net10.0'" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="9.*" Condition="'$(TargetFramework)' == 'net9.0'" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="10.*" Condition="'$(TargetFramework)' == 'net10.0'" />
   </ItemGroup>
 
   <ItemGroup>

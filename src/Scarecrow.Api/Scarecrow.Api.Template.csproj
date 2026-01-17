@@ -5,7 +5,7 @@
   <!-- ========================= -->
   <PropertyGroup>
     <PackageId>Scarecrow.Api</PackageId>
-    <PackageVersion>1.1.1</PackageVersion>
+    <PackageVersion>1.2.0</PackageVersion>
     <PackageTags>dotnet;template;webapi;api;scarecrow</PackageTags>
     <PackageType>Template</PackageType>
 

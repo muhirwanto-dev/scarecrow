@@ -1,6 +1,6 @@
 <Solution>
   <Project Path="Scarecrow.Api/Scarecrow.Api.csproj" />
-  <Project Path="Scarecrow.Application/Scarecrow.Application.csproj" Id="dcaf89d5-f9f5-4d1b-9e5c-68f8f909c190" />
-  <Project Path="Scarecrow.Domain/Scarecrow.Domain.csproj" Id="32544e11-ce7b-442c-843f-e6e366286b81" />
-  <Project Path="Scarecrow.Infrastructure/Scarecrow.Infrastructure.csproj" Id="882d87bb-c36b-4393-bdb4-bbf91b15d062" />
+  <Project Path="Scarecrow.Application/Scarecrow.Application.csproj" Id="4659267b-fa32-487a-aec0-799909bb7b7c" />
+  <Project Path="Scarecrow.Domain/Scarecrow.Domain.csproj" Id="665d9ef9-d140-4c04-a564-2fd00ead2f46" />
+  <Project Path="Scarecrow.Infrastructure/Scarecrow.Infrastructure.csproj" Id="65667c62-234a-476c-ad97-562ad33c6d37" />
 </Solution>
