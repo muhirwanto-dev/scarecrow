@@ -5,7 +5,7 @@
   <!-- ========================= -->
   <PropertyGroup>
     <PackageId>Scarecrow.Clean</PackageId>
-    <PackageVersion>1.0.3</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
     <PackageTags>dotnet;template;clean-architecture;ddd;scarecrow</PackageTags>
     <PackageType>Template</PackageType>
 
@@ -16,7 +16,7 @@ Scarecrow.Clean is a Clean Architecture project template for .NET 9 and .NET 10,
     <PackageReadmeFile>docs\Scarecrow.Clean.md</PackageReadmeFile>
 
     <!-- Only needed for packing the template itself -->
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
 
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
